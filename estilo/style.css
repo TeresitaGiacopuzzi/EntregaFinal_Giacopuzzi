@@ -41,6 +41,11 @@ ul li a:hover {
     height: 80px;
 }
 
+.navbar-toggler {
+    margin-right: 20px;
+    position: relative;
+    bottom: 30px;
+}
 
 
 .logo {
@@ -48,7 +53,7 @@ ul li a:hover {
     height: 200px;
     margin: 10px;
     position: relative;
-    top: 50px;
+    bottom: 30px;
     margin-right: 80px;
     
 }
@@ -66,10 +71,10 @@ ul li a:hover {
 
 .estilomenu {
     font-family: "Nanum Gothic", sans-serif;
-    font-size: 80px;
+    font-size: 20px;
     margin: auto;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 20;
     text-align: center;
     color: #ffffff;
 
@@ -150,9 +155,9 @@ ul li a:hover {
 .links {
     display: inline-block;
     position: relative;
-    bottom: 50px;
+    top: 0px;
     margin: 20px;
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     font-size: medium;
 }
 
@@ -171,7 +176,7 @@ ul li a:hover {
 }
 
 .fondo_menu {
-    background-color: #31572c;
+    background-color: #162714;
     height: 150px;
 }
 
@@ -460,26 +465,18 @@ h6 {
 
 @media screen and (max-width: 320px) {
 
-    .navbar-toggler {
-        border-radius: none;
-        position: relative;
-        bottom: 25px;
-        color: #ffffff !important;
-    }
-    
-    .offcanvas-body ul li a {
-        color: #162714 !important;
+    .contenedor-nav {
+        background-color: #162714;
+        height: 90px;
     }
 
-    .offcanvas-title {
-        color: #162714;
-        font-family: "Bricolage Grotesque", sans-serif;
+    
+    .logo {
+        width: 10px;
+        height: 20px;
+        margin: 10px;
+    
         
-    }
-    .navbar-toggler {
-        margin: 20px;
-        border-radius: 1px;
-        border-color: #162714 !important;
     }
     .estilosh1 {
         font-size: 40px;
