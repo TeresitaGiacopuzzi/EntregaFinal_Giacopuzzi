@@ -3,6 +3,19 @@
     padding: 0;
 }
 
+.navbar-nav a {
+    color: #ffffff !important;
+    position: relative;
+    left: 40px;
+   
+}
+
+#navbarNavAltMarkup {
+    justify-content: center !important;
+    position: relative;
+    top: 70px;
+}
+
 
 .container-fluid {
     align-items: center !important;
