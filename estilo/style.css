@@ -12,16 +12,25 @@
     bottom: 20px;
 
 }
+
+
+.navbar-toggler {
+    border-radius: none;
+    position: relative;
+    bottom: 25px;
+    color: #ffffff !important;
+}
+
 .offcanvas-body ul li a {
-    color: #31572c !important;
+    color: #162714 !important;
 }
 
 ul li a:hover {
-    color: black !important;
+    color: rgb(216, 203, 203) !important;
 }
 
 .offcanvas-title {
-    color: #31572c;
+    color: #162714;
     font-family: "Bricolage Grotesque", sans-serif;
     
 }
@@ -29,17 +38,17 @@ ul li a:hover {
 .navbar-toggler {
     margin: 20px;
     border-radius: 1px;
-    border-color: #31572c !important;
+    border-color: #162714 !important;
 }
 
 .navbar {
-    background-color: #31572c !important;
+    background-color: #162714 !important;
     position: static;
     height: 100px;
 }
 
 .cajalogo {
-    background-color: #31572c;
+    background-color: #162714;
     height: 30px;
 }
 
@@ -180,6 +189,8 @@ ul li a:hover {
 
 
 h6 {
+    color: #ffffff;
+    font-weight: 100;
     position: absolute;
     bottom: 5px;
     left: 10px;
@@ -243,7 +254,7 @@ h6 {
 }
 
 .contenedor-logos {
-    background-color: #31572c;
+    background-color: #162714;
     height: 80px;
 }
 
@@ -253,6 +264,7 @@ h6 {
     justify-content: right;
     position: relative;
     top: 15px;
+    
 
 }
 
@@ -260,6 +272,7 @@ h6 {
     width: 40px;
     height: auto;
     margin: 0 10px;
+    
 
 }
 
@@ -326,7 +339,6 @@ h6 {
 /*media queris al final*/
 
 @media screen and (max-width: 768px) {
-
 
     .container-fluid {
         align-items: center !important;
@@ -476,7 +488,11 @@ h6 {
         
     }
    
+
+}
+
+@media screen and (max-width: 1024px) {
+
+
     
-
-
 }
