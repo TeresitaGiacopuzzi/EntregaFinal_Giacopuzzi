@@ -12,26 +12,48 @@
     bottom: 20px;
 
 }
+.offcanvas-body ul li a {
+    color: #31572c !important;
+}
 
-.logo {
-    width: 150px;
-    height: auto;
-    margin: 10px;
+ul li a:hover {
+    color: black !important;
+}
 
+.offcanvas-title {
+    color: #31572c;
+    font-family: "Bricolage Grotesque", sans-serif;
+    
+}
+
+.navbar-toggler {
+    margin: 20px;
+    border-radius: 1px;
+    border-color: #31572c !important;
 }
 
 .navbar {
     background-color: #31572c !important;
+    position: static;
+    height: 100px;
 }
 
-.navbar-brand {
-    color: #ffffff;
-    padding: 20px;
-    font-size: medium;
-    margin-right: 40px !important;
-
-
+.cajalogo {
+    background-color: #31572c;
+    height: 30px;
 }
+
+.logo {
+    width: 150px;
+    height: 200px;
+    position: relative;
+    bottom: 40px;
+    right: 0;
+    margin: 10px;
+    
+}
+
+
 
 
 .estilosh1 {
@@ -126,9 +148,7 @@
 
 }
 
-.card img {
-    width: 200px !important;
-}
+
 
 .links {
     display: inline-block;
@@ -371,7 +391,16 @@ h6 {
 
 
     }
-
+   
+    .logo {
+        width: 150px;
+        height: 200px;
+        position: relative;
+        bottom: 40px;
+        right: 0;
+        margin: 10px;
+        
+    }
 
 
 }
@@ -430,6 +459,21 @@ h6 {
     .calendario {
         width: 50%;
         height: auto;
+    }
+
+    .cajalogo {
+        background-color: #31572c;
+        height: 30px;
+    }
+    
+    .logo {
+        width: 100px;
+        height: 150px;
+        position: relative;
+        bottom: 40px;
+        right: 0;
+        margin: 10px;
+        
     }
    
     

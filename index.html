@@ -23,17 +23,44 @@
 
 <body>
     <header>
-    <nav class="navbar bg-body-tertiary">
-                <div class="container-fluid">
-                    <img class="logo" src="./imagenes/logo blanco.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                    <a class="navbar-brand" href="#">INICIO</a>
-                    <a class="navbar-brand" href="./Pages/nosotros.html">NOSOTROS</a>
-                    <a class="navbar-brand" href="./Pages/menu.html">SUGERENCIAS</a>
-                    <a class="navbar-brand" href="./Pages/reserva.html">RESERVAS</a>
-                    <a class="navbar-brand" href="./Pages/contacto.html">MENU</a>
+        <div class="cajalogo">
+            <a href="./index.html"><img class="logo" src="./imagenes/logo blanco.png" alt="logo"></a>       
+        </div>
+        <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Lo de Romero</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-              </nav>
-            
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./Pages/nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pages/menu.html">SUGERENCIAS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./Pages/reserva.html">RESERVAS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./Pages/contacto.html">MENU</a>
+                      </li>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+
             </header>
 
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
