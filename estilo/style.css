@@ -66,18 +66,18 @@ ul li a:hover {
 
 
 .estilosh1 {
-    font-family: "Bilbo Swash Caps", cursive;
-    font-size: 60px;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
     margin: auto;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 200;
     text-align: center;
-    color: #31572c;
+    color: #162714;
     padding: 10px;
 }
 
 .estilomenu {
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     font-size: 80px;
     margin: auto;
     font-style: normal;
@@ -88,7 +88,7 @@ ul li a:hover {
 }
 
 .estilosub {
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     font-size: x-large;
     margin: 10px;
     font-weight: 700;
@@ -99,16 +99,16 @@ ul li a:hover {
 
 
 .estilosh2 {
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     font-size: large;
     margin: 10px;
-    font-weight: 900;
+    font-weight: 200;
     text-align: left;
     color: #31572c;
 }
 
 .estiloh3 {
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     font-size: small;
     margin: 10px;
     font-weight: 500;
@@ -117,7 +117,7 @@ ul li a:hover {
 }
 
 .estilo-nosotros {
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     font-size: large;
     font-weight: 900;
     text-align: left;
@@ -134,7 +134,7 @@ ul li a:hover {
 }
 
 .parrafos {
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     font-size: medium;
 }
 
@@ -229,7 +229,7 @@ h6 {
 }
 
 .sub-inicio {
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     font-size: large;
     margin: 0px;
     font-weight: 900;
@@ -240,16 +240,10 @@ h6 {
 }
 
 
-.li {
-    font-family: "Bricolage Grotesque", sans-serif !;
-    font-size: medium;
-    text-align: center;
-    color: #ffffff;
-    text-decoration: none;
-}
-
 .boton {
     text-align: center;
+    font-family: "Nanum Gothic", sans-serif !important;
+    color: #ffffff !important;
 
 }
 
@@ -299,7 +293,7 @@ h6 {
 }
 
 .estilo-menu {
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     font-size: larger;
     text-align: center;
     margin: auto;
@@ -322,7 +316,7 @@ h6 {
 }
 
 .estilo-reserva {
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     font-size: medium;
     text-align: center;
     margin: auto;
@@ -337,6 +331,19 @@ h6 {
 }
 
 /*media queris al final*/
+
+@media screen and (max-width: 1024px) {
+    
+    #offcanvasNavbar {
+        display: block;
+    }
+
+    #offcanvasNavbar {
+        display: none;
+    }
+
+    
+}
 
 @media screen and (max-width: 768px) {
 
@@ -491,8 +498,3 @@ h6 {
 
 }
 
-@media screen and (max-width: 1024px) {
-
-
-    
-}
