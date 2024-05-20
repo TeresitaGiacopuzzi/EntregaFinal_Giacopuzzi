@@ -126,6 +126,10 @@
 
 }
 
+.card img {
+    width: 200px !important;
+}
+
 .links {
     display: inline-block;
     position: relative;
@@ -428,6 +432,7 @@ h6 {
         height: auto;
     }
    
+    
 
 
 }
