@@ -201,4 +201,139 @@ h6 {
   margin: 0 10px;
 }
 
+@media screen and (max-width: 1024px) {
+  #offcanvasNavbar {
+    display: block !important;
+  }
+  #offcanvasNavbar .logo {
+    position: relative;
+    bottom: 100px;
+    width: 150px;
+    height: auto;
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 1024px) and (max-width: 768px) {
+  .navbar-nav a {
+    color: #ffffff !important;
+    position: relative;
+    left: 20px;
+    justify-content: center !important;
+    top: 20px;
+    margin: 30px;
+  }
+  ul li a:hover {
+    color: rgb(216, 203, 203) !important;
+  }
+  .container-fluid {
+    align-items: center !important;
+    padding: 0 !important;
+    height: 100px !important;
+    bottom: 20px;
+  }
+  .logo {
+    bottom: 40px;
+    width: 100px;
+    margin: 10px;
+  }
+  .navbar-brand {
+    color: #ffffff;
+    padding: 0px;
+    margin-right: 10px !important;
+    font-size: smaller;
+  }
+  .estilosh1 {
+    font-size: 20px;
+  }
+  .col-md-6 {
+    width: 100%;
+  }
+  .contenedor-logos {
+    height: 50px;
+  }
+  .logos-footer img {
+    width: 30px;
+    height: auto;
+    bottom: 5px;
+  }
+  h6 {
+    font-size: smaller;
+  }
+  .tarjetas {
+    display: flex;
+    bottom: 30px;
+    justify-content: center;
+    margin: 30px;
+    width: 50px !important;
+  }
+  .logo {
+    width: 150px;
+    height: 200px;
+    bottom: 40px;
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 1024px) and (max-width: 320px) {
+  .contenedor-nav {
+    background-color: #162714;
+    height: 90px;
+  }
+  .logo {
+    width: 10px;
+    height: 20px;
+    margin: 10px;
+  }
+  .estilosh1 {
+    font-size: 40px;
+  }
+  .contenedor-logos {
+    height: 40px;
+  }
+  .col-md-6 {
+    width: 100%;
+  }
+  .logos-footer img {
+    width: 15px;
+    height: auto;
+    position: relative;
+    bottom: 10px;
+  }
+  h6 {
+    font-size: x-small;
+  }
+  .sub-inicio {
+    font-size: medium;
+    margin: 0px;
+    font-weight: 900;
+    text-align: center;
+  }
+  .calendario {
+    width: 50%;
+    height: auto;
+  }
+  .estilo-nosotros {
+    font-size: medium;
+    font-weight: 900;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 10px;
+  }
+  .calendario {
+    width: 50%;
+    height: auto;
+  }
+  .cajalogo {
+    background-color: #31572c;
+    height: 30px;
+  }
+  .logo {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    bottom: 40px;
+    right: 0;
+    margin: 10px;
+  }
+}
+
 /*# sourceMappingURL=estilos.css.map */
