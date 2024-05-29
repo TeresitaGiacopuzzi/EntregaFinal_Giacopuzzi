@@ -31,8 +31,8 @@
   font-style: normal;
   font-weight: 400;
   text-align: center;
-  color: #162714;
-  padding: 10px;
+  color: #113d0b;
+  padding: 50px;
 }
 
 .estilosub {
@@ -41,7 +41,7 @@
   margin: 10px;
   font-weight: 700;
   text-align: center;
-  color: #31572c;
+  color: #113d0b;
 }
 
 .estilosh2 {
@@ -50,7 +50,7 @@
   margin: 10px;
   font-weight: 200;
   text-align: left;
-  color: #31572c;
+  color: #113d0b;
 }
 
 .estiloh3 {
@@ -59,7 +59,7 @@
   margin: 10px;
   font-weight: 500;
   text-align: center;
-  color: #31572c;
+  color: #113d0b;
 }
 
 .estilo-nosotros {
@@ -67,7 +67,7 @@
   font-size: larger;
   font-weight: 900;
   text-align: left;
-  color: #31572c;
+  color: #113d0b;
   padding-bottom: 5px;
   padding-top: 10px;
 }
@@ -99,7 +99,7 @@
   text-align: center;
   margin: auto;
   padding: 50px;
-  color: #31572c;
+  color: #113d0b;
   text-decoration: none;
 }
 
@@ -172,6 +172,10 @@ h6 {
 
 .container {
   text-align: left !important;
+}
+.container .parrafo-uno {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: medium;
 }
 .container .img1 {
   width: 40vw;
