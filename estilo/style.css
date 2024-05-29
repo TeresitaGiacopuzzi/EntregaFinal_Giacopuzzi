@@ -80,7 +80,10 @@ ul li a:hover {
 
 }
 
-
+#carouselExampleCaptions {
+    padding-top: 30px;
+    background-color: #162714;
+}
 
 .estilosub {
     font-family: "Nanum Gothic", sans-serif;
@@ -307,16 +310,7 @@ h6 {
     text-decoration: none;
 }
 
-.estilo-menu {
-    font-family: "Nanum Gothic", sans-serif;
-    font-size: larger;
-    text-align: center;
-    margin: auto;
-    padding: 20px;
-    color: #31572c;
-    text-decoration: none;
 
-}
 
 .parrafo-menu {
     display: block;
@@ -340,7 +334,7 @@ h6 {
     text-decoration: none;
 }
 
-.contenedor-textomenu {
+.extomenu {
     display: inline-block;
     margin: 20px;
 }

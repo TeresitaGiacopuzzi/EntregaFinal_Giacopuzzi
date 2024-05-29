@@ -1,0 +1,23 @@
+.contenedor-logos {
+    background-color: #162714;
+    height: 80px;
+
+    .logos-footer {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        position: relative;
+        top: 15px;
+        
+    
+    }
+
+    .logos-footer img {
+        width: 40px;
+        height: auto;
+        margin: 0 10px;
+        
+    
+    }
+
+}

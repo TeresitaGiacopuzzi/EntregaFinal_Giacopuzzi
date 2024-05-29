@@ -1,0 +1,30 @@
+%inicio {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: large;
+    margin: 0;
+    font-weight: 900;
+    text-align: center;
+    color: #31572c;
+    grid-column: 1/4;
+}
+
+%mapa {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: larger;
+    font-weight: 100;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+%menu {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 20px;
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+}

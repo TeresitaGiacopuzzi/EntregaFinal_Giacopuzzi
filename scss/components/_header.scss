@@ -1,0 +1,52 @@
+.contenedor-nav {
+    background-color: #162714;
+    height: 150px;
+  
+    .container-fluid {
+      align-items: center !important;
+      padding: 0 !important;
+      position: relative !important;
+      bottom: 20px;
+      height: 200px; 
+    }
+  
+    .logo {
+      width: 150px;
+      height: 200px;
+      margin: 10px;
+      position: relative;
+      bottom: 30px;
+      margin-right: 80px;
+    }
+  
+    .navbar-toggler {
+      margin-right: 20px;
+      position: relative;
+      bottom: 30px;
+    }
+  
+    .navbar {
+      background-color: #162714 !important;
+      position: static;
+      height: 80px;
+    }
+  
+    .navbar-nav {
+      a {
+        color: #ffffff !important;
+        position: relative;
+        left: 40px;
+        justify-content: center !important;
+        margin: 50px;
+      }
+    }
+  }
+  
+
+    
+        
+       
+
+       
+
+                
