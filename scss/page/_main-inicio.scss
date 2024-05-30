@@ -18,22 +18,6 @@
     }
   }
   
-
-  .contendor-mapa {
-    @include display(flex,center,center);
-    text-align: center;
-    padding: 20px;
-    background-color: #162714;
-  }
-
-  .estilo-mapa {
-    @extend %mapa; 
-  }
-
-  .mapa {
-    max-width: 100%;
-    height: 300px;
-  }
 }
 
 
