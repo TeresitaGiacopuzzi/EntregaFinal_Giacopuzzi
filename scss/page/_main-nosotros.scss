@@ -44,15 +44,15 @@
 
   }
 
-  .contendor-mapa {
-    @include display(flex,center,center);
-    text-align: center;
-    padding: 20px;
-    background-color: #162714;
-  }
-
-  .estilo-mapa {
-    @extend %mapa; 
+  .donde-estamos {
+      font-family: "Nanum Gothic", sans-serif;
+      font-size: larger;
+      font-weight: 100;
+      text-align: center;
+      margin: auto;
+      padding: 20px;
+      color: #042e13;
+      text-decoration: none;
   }
 
   .mapa {
