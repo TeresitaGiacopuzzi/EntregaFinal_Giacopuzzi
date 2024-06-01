@@ -4,7 +4,7 @@
     margin: 0;
     font-weight: 900;
     text-align: center;
-    color: #31572c;
+    color: nth($list: $colores-texto, $n:2 );
     grid-column: 1/4;
 }
 
@@ -16,5 +16,5 @@
     font-style: normal;
     font-weight: 400;
     text-align: center;
-    color: #ffffff;
+    color: nth($list: $colores-texto, $n:1);
 }
