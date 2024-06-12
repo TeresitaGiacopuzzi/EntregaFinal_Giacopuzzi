@@ -285,6 +285,10 @@ h6 {
     bottom: 40px;
     margin: 10px;
   }
+  .calendario {
+    width: 100%;
+    height: auto;
+  }
 }
 @media screen and (max-width: 1024px) and (max-width: 320px) {
   .contenedor-nav {
