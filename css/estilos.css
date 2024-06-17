@@ -21,7 +21,7 @@
   font-weight: 400;
   text-align: center;
   color: #113d0b;
-  padding: 50px;
+  
 }
 
 .estilosub {
@@ -163,6 +163,7 @@ h6 {
   height: auto;
 
 }
+
 .container {
   text-align: left !important;
 }
