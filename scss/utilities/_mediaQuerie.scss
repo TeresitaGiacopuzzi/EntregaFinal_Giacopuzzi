@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (max-width: 768px) {
     #offcanvasNavbar {
         display: block !important;
       
@@ -12,9 +12,7 @@
         margin: 10px;
 
         }
-    }
 
-  @media screen and (max-width: 768px) {
     .navbar-nav a {
       color: #ffffff !important;
       position: relative;
@@ -86,7 +84,7 @@
     }
   }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 1024px) and (max-width: 320px) {
 
     .contenedor-nav {
         background-color: #162714;
