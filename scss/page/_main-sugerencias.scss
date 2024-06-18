@@ -12,16 +12,24 @@
 
   .links {
     display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
     bottom: 30px;
-    
+    justify-content: space-evenly; 
+     
+     
   }
-   a {
-    display: inline-block;  
-    padding: 10px;
+  
+  .links button {
+    background-color: #042e13 !important;
+    border: #042e13 !important;
+  
   }
+
+  .btn a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
    
 }
 
