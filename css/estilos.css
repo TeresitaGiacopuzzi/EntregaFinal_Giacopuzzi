@@ -21,6 +21,7 @@
   font-weight: 400;
   text-align: center;
   color: #113d0b;
+  padding: 20px;
   
 }
 
@@ -156,11 +157,14 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  bottom: 30px;
   
 }
  a {
   display: inline-block;  
   padding: 10px;
+
 }
 .calendario {
   max-width: 100%;
