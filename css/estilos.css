@@ -148,6 +148,15 @@ h6 {
   margin-right: 20px !important;
 }
 
+.parrafoos {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: medium;
+  margin: 10px;
+  font-weight: 50;
+  text-align: left;
+  color: #113d0b;
+}
+
 .img-fluid {
   height: 550px;
   max-width: 100%;
@@ -175,14 +184,8 @@ h6 {
 }
 
 button {
-  background-color: #042e13 !important;
-  border: #042e13 !important;
-}
-
-.calendario {
-  max-width: 100%;
-  height: auto;
-
+  background-color: #162714 !important;
+  border: #162714 !important;
 }
 
 .container {
@@ -317,10 +320,7 @@ button {
     bottom: 40px;
     margin: 10px;
   }
-  .calendario {
-    width: 100%;
-    height: auto;
-  }
+  
 }
 @media screen and (max-width: 1024px) and (max-width: 320px) {
   .contenedor-nav {
@@ -363,10 +363,7 @@ button {
     padding-bottom: 5px;
     padding-top: 10px;
   }
-  .calendario {
-    width: 50%;
-    height: auto;
-  }
+  
   .cajalogo {
     background-color: #31572c;
     height: 30px;
